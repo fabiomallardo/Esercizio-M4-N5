@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #f8f9fa; /* Sfondo chiaro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+  }
+  
+  .navbar-brand {
+    color: #007bff; /* Colore blu */
+    text-transform: uppercase; /* Rendere il testo tutto maiuscolo */
+  }
+  
+  .navbar-brand:hover {
+    color: #0056b3; /* Cambia colore al passaggio del mouse */
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Colore blu per i link */
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa; /* Colore chiaro per il jumbotron */
+    border-radius: 8px; /* Angoli arrotondati */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
+    text-align: center;
+    height: 215px;
+    padding: 20px;
+  }
+  
+  .jumbotron h1 {
+    color: #007bff; /* Colore primario per il titolo */
+    font-size: 2.5rem; /* Dimensione del titolo */
+    padding: 25px;
+  }
+  
+  .jumbotron p {
+    font-size: 1.2rem; /* Dimensione del testo descrittivo */
+    color: #6c757d; /* Grigio per un contrasto delicato */
+  }
+  
+  .card {
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-img-top {
+    height: 350px;
+    object-fit: hidden;
+  }
+
+  .card-body {
+  
+  height: 200px;
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+
+  .btn-custom-primary {
+    background-color: #ced7e2;
+    color: #fff;
+  }
+
+  .btn-custom-primary:hover {
+    background-color: #0056b3;
+  }
+
